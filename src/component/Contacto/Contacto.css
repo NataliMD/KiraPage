@@ -1,0 +1,21 @@
+.boton{
+    margin: 8px 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /*para que no salga el subrayado*/
+    padding: 0.5rem 1rem;
+    width: 10rem;
+    text-align: center;
+    border: 1px solid var(--botones);
+    background-color: var(--botones);
+    color: var(--fondo);
+    border-radius: 8px;
+    font-weight: bold; /*hasta ahora descubri que hace negrita la letra*/
+}
+.wpp{
+    color: green;
+    font-size: 2.5rem;
+    background-color: var(--botones);
+}
+/*uso todo en rem para que sea mejor responsive*/

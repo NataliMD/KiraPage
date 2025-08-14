@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+  --fondo: #ffc2ff;
+  --botones: #e890d0;
+  --contenedor: #f4a9e7;
+  --titulo: #dd77b8;
+  --texto: #d15ea0
+}
+*{
+  /*para que nada quede raro jaja*/
+  margin: 0;
+  padding: 0;
+  background-color: var(--fondo);
+  box-sizing: border-box; /*para que todo se quede en su lugar aunque se apliquen margin o padding*/
+
+}
+html, body{
+  height: 100%;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'PT Sans',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html, body, #root, h2, .contactos, footer{
+  /*fondo de huesitos o cualquier fondo con imagenes*/
+  background-image: url('./assets/huesitos.png');
+  background-repeat: repeat;
+  background-size: 6rem;
+  background-attachment: fixed;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  text-align: center;
+  padding-top: 3rem;
+  background-color: var(--fondo);
+  color: var(--texto);
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
