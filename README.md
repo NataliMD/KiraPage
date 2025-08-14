@@ -1,8 +1,7 @@
-# React + Vite
 
-#KIRA PAGE
+# KIRA PAGE
 
-##Instalación
+## Instalación
 
 1. Clonar el repositorio:
 
